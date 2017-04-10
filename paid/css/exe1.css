@@ -1,0 +1,97 @@
+
+header{
+    background: url(i/header1.png) no-repeat;
+    background-size:100% auto;
+    height: 1.55rem;
+}
+.header-tip{
+    background: url(i/header2.png) no-repeat;
+    background-size:100% auto;
+    height: 1.06rem;
+    border-top: 2px dashed #e4393c;
+    text-align: center;
+    line-height: 0.32rem;
+    font-size: 0.24rem;
+    color: #FFF;
+    padding-top: 0.12rem;
+}
+.header-tip span{
+    color: #F8D535;
+}
+.content{
+    background: url(i/bg.jpg) no-repeat;
+    background-size:cover;/*背景尺寸自适应*/
+    padding: 0 0.3rem;
+}
+.content .comm{
+    background: #fff;
+    text-align: center;
+    padding-bottom: .32rem;
+}
+.content .comm  p{
+    font-size: 0.24rem;
+    color: #222;
+    padding: 0 0.3rem;
+    line-height:0.32rem;
+}
+.content .comm .zhuanshu img{
+    float: left;
+    margin: 0.4rem 0.16rem 0.1rem 0.3rem;
+}
+.content .comm .zhuanshu h1{
+    float: left;
+    font-size: 0.6rem;
+    color: #E4393C;
+    margin-top: 0.27rem;
+    margin-bottom: 0.26rem;
+}
+.content .comm a{
+    display: block;
+    width: 5.2rem;
+    height: 0.8rem;
+    background: #e4393c;
+    border-radius:2rem;
+    font-size: 0.36rem;
+    color: #FFF;
+    text-align: center;
+    line-height:0.8rem;
+    margin-left: 0.3rem;
+    /*margin-bottom: 0.3rem;*/
+}
+.content .explain{
+    text-align: center;
+    padding-bottom: 1.15rem;
+}
+.content .explain .exp-1{
+    margin-top:0.2rem;
+    font-size: 0;
+
+}
+.content .explain hr{
+    float: left;
+    width: 2.1rem;
+    display: inline-block;
+    border: 1px solid #962FFF;
+}
+.content .explain .line-2{
+    float: right;
+}
+.content .explain h2{
+    float: left;
+    font-size: 0.22rem;
+    display: inline-block;
+    color: #962FFF;
+    margin-left: 0.2rem;
+    margin-top: -0.05rem;
+}
+.content .explain p{
+    font-size: 0.2rem;
+    color: #555;
+    line-height:0.26rem;
+    text-align: left;
+    margin-top:0.15rem;
+}
+.content .explain span{
+    color: #962FFF;
+}
+
