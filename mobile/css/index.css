@@ -7,8 +7,8 @@ header{
     height: 550px;
 }
 .w{
-    margin-left: 124px;
-    margin-right: 124px;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 header .w  .head-top{
     text-align: center;
@@ -281,6 +281,10 @@ header a{
 }
 
 @media (max-width: 768px) {
+    /*header{
+        text-align: center;
+    }*/
+
     .floor1 .floor1-1 .box{
         width: 100%;
         float: none;
@@ -308,13 +312,16 @@ header a{
         text-align: center;
         margin-top: 20px;
     }
+    .floor3 .floor3-1 img{
+        margin-top: 20px;
+    }
     .floor3 .floor3-1 .floor3-1-t{
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
     .floor3 .floor3-1 .floor3-1-t .img1{
         width: 100%;
         float: none;
-        padding-right: 0px;
+        padding-right: 0;
         height: auto;
     }
     .floor3 .floor3-1 .floor3-1-t .img2{
@@ -329,7 +336,19 @@ header a{
     .floor3 .floor3-1 .floor3-1-b .img2{
         width: 100%;
         float: none;
-        padding-right: 0px;
+        padding-right: 0;
     }
 
+    .floor5 .floor5-t ul li{
+        margin-left: 8px;
+    }
+    .floor5 .floor5-b span{
+        font-size: 10px;
+        color: #414D60;
+    }
+    .floor5 .floor5-b img{
+        float: none;
+        margin-top: 30px;
+        margin-left: 46px;
+    }
 }
